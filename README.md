@@ -44,20 +44,20 @@ In each Jupyter Notebook, create the same custom LSTM RNN architecture. In one n
 
 Use the same parameters and training steps for each model. This is necessary to compare each model accurately.
 
-### Evaluate the performance of each model
+### Evaluation of the performance of each model
 
 Finally, use the testing data to evaluate each model and compare the performance.
 
 Use the above to answer the following:
 
-> Which model has a lower loss?
->> Closing Prices; 0.0224
+Which model has a lower loss?
+> Closing Prices; 0.0224
 
-> Which model tracks the actual values better over time?
->> Closing Prices Model
+Which model tracks the actual values better over time?
+> Closing Prices Model
 
-> Which window size works best for the model?
->> Window size of 1 day works best for the model as it uses the prior day's closing price only.
+Which window size works best for the model?
+> Window size of 1 day works best for the model as it uses the prior day's closing price only.
 - - -
 
 ### Resources

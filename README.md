@@ -52,8 +52,10 @@ Use the above to answer the following:
 
 > Which model has a lower loss?
 >> Closing Prices; 0.0224
+
 > Which model tracks the actual values better over time?
 >> Closing Prices Model
+
 > Which window size works best for the model?
 >> Window size of 1 day works best for the model as it uses the prior day's closing price only.
 - - -
